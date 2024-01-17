@@ -1,0 +1,55 @@
+.font-robo {
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-1 {
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-1 .card-heading {
+  background: url("../images/bg-head-02.jpg") center center/cover no-repeat;
+  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px #555252;
+}
+
+.card-body {
+  background-color: #d6d6d6;
+}
+
+.card-1 .card-body {
+  padding: 0 90px;
+  padding-top: 55px;
+  padding-bottom: 65px;
+}
+
+.error {
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+}
+
+.apresentacao p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c5c5c;
+}
